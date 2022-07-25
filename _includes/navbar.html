@@ -1,0 +1,35 @@
+<style>
+  .site-nav{
+    padding-top: 10px;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 10px;
+    text-align: right;
+    border-bottom: 2px solid black
+  }
+  .page-link{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+</style>
+{%- assign default_paths = site.pages | map: "path" -%}
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+<nav class="site-nav">
+  {%- for path in page_paths -%}
+    {%- assign my_page = site.pages | where: "path", path | first -%}
+    {%- if my_page.title -%}
+      {%- assign title = my_page.title -%}
+    {%- endif -%}
+    {%- if my_page.nav_title -%}
+      {%- assign title = my_page.nav_title -%}
+    {%- endif -%}
+
+    {%- if title != "" -%}
+      {%- unless my_page.exclude -%}
+      <a class="page-link" href="{{ my_page.url | relative_url }}">{{ title | escape }}</a>
+      {%- endunless -%}
+    {%- endif -%}
+    {%- assign title = "" -%}
+  {%- endfor -%}
+</nav>

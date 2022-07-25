@@ -121,3 +121,7 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+
+### Blog Pages are available as _includes.
+All you need to do is use liquid to include `blog-archive.html` or `blog-feed.html` on a blank page.
+You can also include them on the home page if your site is blog-centric. 
