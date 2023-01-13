@@ -124,6 +124,17 @@ a {
   }
 }
 
+.site-nav {
+  padding-bottom: 50px;
+  text-align: right;
+}
+
+a.page-link {
+  color: $header-heading-color;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
