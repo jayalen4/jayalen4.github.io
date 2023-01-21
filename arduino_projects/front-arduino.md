@@ -9,3 +9,9 @@ Haciendo uso de 3 resistencias se pudo medir el voltaje y el amperaje de una bat
 
 
 <img src="./voltimetro/foto_fritzing.png"  width="589.5" height="337">
+
+# 2. Controlar un led con el DashBoard Blynk IoT
+Haciendo uso de este dashboard, se puede controlar la intensidad del led. [Ver proyecto](/arduino_projects/led/led-archivo.html)
+
+![](/arduino_projects/led/led_imagen.png)
+

@@ -7,12 +7,12 @@ description: Midiendo estos parámetros con un ESP32
 Para el caso de este ejercicio se está realizando la medición de voltaje y corriente de una batería 
 de 3.7V y 2000mAh de capacidad. Para poder realizar la medición se realiza un divisor de voltaje:
 
-Vout= Vin x (R2/(R1+R2))
+Vin = Vout/(R3/(R1+R2+R3))
 
 Y para la medición de la corriente se está usando una resistencia de 15 Ω, debido a que no se tiene 
-una resistencia shunt, en la fórmula, R3 = 15 Ω,
+una resistencia shunt, en la fórmula, R2 = 15 Ω,
 V3 = V2-V1,
-current = V3/R3.
+current = V3/R2.
 
 ## Diagrama pictórico
 
