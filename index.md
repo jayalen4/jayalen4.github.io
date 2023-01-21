@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Portfolio de Marco Rios
+description: Mis proyectos.
 ---
 
 # [Proyectos en Python](./proy-python.html)
