@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Portfolio de Marco Rios
+title: Portafolio de Marco Rios
 description: Mis proyectos.
 ---
 
