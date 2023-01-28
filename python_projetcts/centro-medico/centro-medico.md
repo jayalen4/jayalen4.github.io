@@ -135,7 +135,6 @@ class MainWindow:
             self.tabMedicos.insert("", tk.END, text = item[0], values = item[1:])
         
         self.tabMedicos.bind("<<TreeviewSelect>>", self.update_data_patients)
-        # NOTA: Al hacer click a un medico debe llamar al metodo self.update_data_patients
         
         # -------------------------- frm2 ------------------------------ 
         # Tabla con el registro de los Pacientes + Scrollbar Vertical
@@ -161,10 +160,8 @@ class MainWindow:
         self.tabPacientes.column('#4', width=80, minwidth=80, stretch=tk.NO)
         self.tabPacientes.column('#5', width=80, minwidth=80, stretch=tk.NO)
        
-        
         self.scrY.pack(side=tk.LEFT, expand=True, fill=tk.Y)
         
-        # NOTA: Al hacer click a un paciente debe llamar a self.open_graph_window
         self.tabPacientes.bind("<<TreeviewSelect>>", self.open_graph_window)
         
         # ------------------------ statusbar ---------------------------
