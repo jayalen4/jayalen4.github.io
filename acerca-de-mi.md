@@ -13,8 +13,8 @@ Mi nombre es Marco Rios, soy estudiante de ingeniería electrónica, y  me gusta
 
 <body>
     <h3>Contáctese conmigo</h3>
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="email.php">
-            <label for="Name" class="fcf-label">Su nombre</label>
+    <form  method="POST" action="https://formspree.io/f/xjvdgrez">
+            <label for="Name" >Su nombre</label>
             <div class="fcf-input-group">
                 <input type="text" id="Name" name="Name" class="fcf-form-control" required>
             </div>
@@ -32,3 +32,4 @@ Mi nombre es Marco Rios, soy estudiante de ingeniería electrónica, y  me gusta
         <div class="fcf-form-group">
             <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Enviar</button>
         </div>
+    
