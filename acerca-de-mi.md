@@ -30,6 +30,6 @@ Mi nombre es Marco Rios, soy estudiante de ingeniería electrónica, y  me gusta
             </div>
         </div>
         <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block" style="width: 120px;">➡️  Enviar </button>
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block" style="width: 95px;">📩 <br> Enviar </button>
         </div>
     
