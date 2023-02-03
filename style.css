@@ -107,15 +107,7 @@
     top: 40%;
 }
 
-.container10 {
-    height: 5px;
-    width: 350px;
-    color:#fff;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 88%;
-    top: 70%;
-}
+
 
 .container h1{
     font-size: 25px;
@@ -545,15 +537,27 @@ body {
     }
   }
 
+  .container10 {
+    height: 5px;
+    width: 0px;
+    color:#fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+    
+    left: 48%;
+    top: 70%;
+}
+
  .heart{
     height: 60px;
     width:60px;
     background: #f20044;
-    position: relative;
+    
+    margin: left;
     transform: rotate(-45deg);
     box-shadow: -10px 10px 90px #f20044;
-    animation: heart 0.6s linear infinite;
-
+    
  }
 
  .heart:before{
