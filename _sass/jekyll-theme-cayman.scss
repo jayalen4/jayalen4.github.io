@@ -106,6 +106,7 @@ a {
 }
 
 .page-header {
+  clear: both;
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
@@ -124,6 +125,17 @@ a {
   }
 }
 
+a.site-logo {
+  float: left;
+  display: block;
+}
+img.logo {
+  max-width: 200px;
+  max-height: 70px;
+  width: auto;
+  height: auto;
+}
+
 .site-nav {
   padding-bottom: 2rem;
   text-align: right;
@@ -138,6 +150,7 @@ a.page-link {
 }
 
 .project-name {
+  clear: both;
   margin-top: 0;
   margin-bottom: 0.1rem;
 

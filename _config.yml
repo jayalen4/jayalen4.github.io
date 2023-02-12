@@ -1,5 +1,14 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-cayman
+title: Better Cayman Jekyll Theme
+email: morpheus636@morpheus636.com
+description: "Better Cayman is a simple theme for Jekyll"
+logo: "https://raw.githubusercontent.com/Morpheus636/branding/b88d6c0c84aff41de86205cd3d5899cab0c797ab/circle-m.svg"
+
+# Build settings
+markdown: kramdown
+remote_theme: Morpheus636/better-cayman
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+include_maintained_by: false
