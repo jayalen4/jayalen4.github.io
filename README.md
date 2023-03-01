@@ -1,5 +1,5 @@
 # Better-Cayman Theme
-Better-Cayman is a fork of the Cayman theme which adds navigation and blog support.
+Better-Cayman is a fork of the Cayman theme which adds useful quality-of-life features.
 
 ## Usage
 
@@ -33,19 +33,8 @@ google_analytics: [Your Google Analytics tracking ID]
 
 ### Stylesheet
 
-If you'd like to add your own custom styles:
-
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
-
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
-
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
+You can customize the stylesheet of your website by creating `_sass/overrides.scss`.
+Styles in this file will override any existing styles, so you can use it to customize existing elements or add new styles alltogether.
 
 ### Layouts
 
