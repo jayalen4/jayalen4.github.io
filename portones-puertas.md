@@ -8,4 +8,4 @@ description: This is just another page
 
 Portones y Puertas
 
-[back](./)
+[Inicio](./)

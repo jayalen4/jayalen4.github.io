@@ -8,4 +8,4 @@ description: This is just another page
 
 Construcción General
 
-[back](./)
+[Inicio](./)

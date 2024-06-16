@@ -8,4 +8,4 @@ description: This is just another page
 
 Cercos Perimetrales
 
-[back](./)
+[Inicio](./)
