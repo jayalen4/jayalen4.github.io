@@ -1,5 +1,7 @@
 ---
 layout: default
+title: CercosRosario.com
+description: This is just another page
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
