@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Another page
+title: Portones y Puertas
 description: This is just another page
 ---
 
-## Welcome to another page
+## Portones y Puertas
 
-_yay_
+Portones y Puertas
 
 [back](./)
