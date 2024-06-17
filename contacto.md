@@ -4,7 +4,10 @@ title: Contacto
 description: This is just another page
 ---
 
-## Contacto
+# Contacto
+
+Complete el formulario, llámenos o escriba un e-mail indicando, por favor, su número de teléfono.
+También disponemos de whatsapp.
 
 <form
   action="https://formspree.io/f/xgeggdpn"
@@ -22,6 +25,5 @@ description: This is just another page
   <label>
     <textarea name="message" placeholder="Su consulta *" required style="padding:6px" style="padding:6px; width:96%; margin-bottom: 10px; border-radius: 3px; border: 1px solid #bbb;" rows="5"></textarea>
   </label><br>
-  <!-- your other form fields go here -->
   <button type="submit">¡Enviar!</button>
 </form>

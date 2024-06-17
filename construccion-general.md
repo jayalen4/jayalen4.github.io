@@ -4,8 +4,14 @@ title: Construcción General
 description: This is just another page
 ---
 
-## Construcción General
+# Construcción General
 
-Construcción General
-
-[Inicio](./)
+* Construcción de viviendas
+* Reparaciones
+* Puentes
+* Veredas y caminos
+* Pilares
+* Fuentes y cascadas
+* Pérgolas y galerías
+* Frentes
+* Fachadas
