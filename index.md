@@ -10,10 +10,10 @@ Con 25 años de experiencia construimos e instalamos cercos perimetrales, frente
 
 Localidades en las que trabajamos: Rosario, Funes, Roldán, Ibarlucea.
 
-## Visitá las secciones:
+## Nuestros trabajos:
 
-[Cercos Perimetrales](./cercos-perimetrales.html)
+* [Cercos Perimetrales](./cercos-perimetrales.html)
 
-[Portones y puertas](./portones-puertas.html)
+* [Portones y puertas](./portones-puertas.html)
 
-[Construcción general](./construccion-general.html)
+* [Construcción general](./construccion-general.html)
