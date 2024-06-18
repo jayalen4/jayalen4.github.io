@@ -1,14 +1,14 @@
 ---
 layout: default
 title: CercosRosario.com
-description: This is just another page
+description: Cercos y portones
 ---
 
 # ¡Bienvenidos!
 
-Con 25 años de experiencia construimos e instalamos cercos perimetrales, frentes completos, puertas y portones de exterior.
+Con 25 años de experiencia construimos e instalamos cercos perimetrales, puertas y portones de exterior y frentes completos.
 
-Localidades en las que trabajamos: Rosario, Funes, Roldán, Ibarlucea.
+Localidades en las que trabajamos: Rosario, Funes, Roldán, Álvarez, Alvear, Pueblo Esther, Ibarlucea y alrrededores.
 
 ## Nuestros trabajos:
 

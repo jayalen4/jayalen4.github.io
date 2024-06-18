@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Portones y Puertas
-description: This is just another page
+description: Cercos Rosario
 ---
 
 # Portones y Puertas

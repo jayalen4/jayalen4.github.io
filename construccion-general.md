@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Construcción General
-description: This is just another page
+description: Cercos Rosario
 ---
 
 # Construcción General

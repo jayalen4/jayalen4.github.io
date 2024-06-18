@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contacto
-description: This is just another page
+description: Cercos Rosario
 ---
 
 # Contacto
