@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cercos Perimetrales
-description: This is just another page
+description: Cercos Rosario
 ---
 
 # Cercos Perimetrales
