@@ -4,8 +4,8 @@
 @import "{{ site.theme }}";
 
   .page-header {
-    background-color: #36a44a;
-    background-image: linear-gradient(0deg, #36a44a, #0057AD);
+    background-color: #004992;
+    background-image: radial-gradient(#1992e9, #004992);
   }
   @media screen and (min-width: 64em) {
     .page-header {
@@ -96,7 +96,8 @@
   .main-content h4,
   .main-content h5,
   .main-content h6 {
-    color: #0066CC;
+    //color: #0066CC;
+    color: #36a48e
   }
 
   .full-width-image {
