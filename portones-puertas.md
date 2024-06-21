@@ -7,8 +7,7 @@ description: Cercos Rosario
 # Portones y Puertas
 
 * En madera y acero
-* Portones exteriores
-* Puertas 
+* Portones y puertas exterior
 * Corredizos
 * De abrir
 * Herrería general
