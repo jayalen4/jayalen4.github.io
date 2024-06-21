@@ -21,7 +21,8 @@ También disponemos de whatsapp.
   </label><br>
   <label>
     <input type="text" inputmode="numeric" pattern="[0-9]+" minlength="7" name="phone" placeholder="Teléfono *" required style="padding:6px; margin-bottom: 10px; border-radius: 3px; border: 1px solid #bbb;">
-  </label><br>
+  </label>
+  <i>Solo números, sin espacios ni guiones.</i><br>
   <label>
     <textarea name="message" placeholder="Su consulta *" required style="padding:6px" style="padding:6px; width:96%; margin-bottom: 10px; border-radius: 3px; border: 1px solid #bbb;" rows="5"></textarea>
   </label><br>
