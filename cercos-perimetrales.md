@@ -6,24 +6,21 @@ description: Cercos Rosario
 
 # Cercos Perimetrales
 
-* Cercos perimetrales
 * Quebracho y caño
 * Cinta para cerco
 * Tejidos romboidales
 * Cercos de malla galvanizada
 * Cercos de pileta
 * Zócalo / cordón
-* Pilares
-* Pilares EPE
-* [Portones y Puertas](./portones-puertas)
+* Pilares y Pilares EPE
 
-Cerco de tejido romboidal:
+1 - Cerco de tejido romboidal:
 <img src="./assets/images/cercos/cerco1.jpg" loading="lazy" class="full-width-image" />
-Cerco de pileta:
+2 - Cerco de pileta:
 <img src="./assets/images/cercos/cerco2.jpg" loading="lazy" class="full-width-image" />
-Cerco de pileta:
+3 - Cerco de pileta:
 <img src="./assets/images/cercos/cerco3.jpg" loading="lazy" class="full-width-image" />
-Cerco de tejido romboidal:
+4 - Cerco de tejido romboidal:
 <img src="./assets/images/cercos/cerco4.jpg" loading="lazy" class="full-width-image" />
-Cerco con durmientes y zócalo de ladrillos:
+5 - Cerco con durmientes y zócalo de ladrillos:
 <img src="./assets/images/cercos/cerco5.jpg" loading="lazy" class="full-width-image" />
