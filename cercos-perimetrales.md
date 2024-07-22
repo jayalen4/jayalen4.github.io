@@ -20,7 +20,9 @@ description: Cercos Rosario
 <img src="./assets/images/cercos/cerco2.jpg" loading="lazy" class="full-width-image" />
 3 - Cerco de pileta:
 <img src="./assets/images/cercos/cerco3.jpg" loading="lazy" class="full-width-image" />
-4 - Cerco de tejido romboidal:
+4 - División de jardín
 <img src="./assets/images/cercos/cerco4.jpg" loading="lazy" class="full-width-image" />
-5 - Cerco con durmientes y zócalo de ladrillos:
+5 - Cerco de tejido romboidal:
 <img src="./assets/images/cercos/cerco5.jpg" loading="lazy" class="full-width-image" />
+6 - Cerco con durmientes y zócalo de ladrillos:
+<img src="./assets/images/cercos/cerco6.jpg" loading="lazy" class="full-width-image" />
