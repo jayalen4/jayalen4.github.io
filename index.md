@@ -3,6 +3,12 @@ layout: default
 title: QiYi Wang
 ---
 
+<style>
+header > div {
+  display: none;
+}
+</style>
+
 <div style="text-align: center; padding-top: 80px;">
   <h1>👋 Hi, I'm <strong>QiYi Wang</strong></h1>
   <p>🎓 Bachelor of Science (Honours) in Software Systems Practice </p>
