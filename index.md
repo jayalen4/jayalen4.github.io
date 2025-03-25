@@ -5,9 +5,9 @@ title: QiYi Wang
 
 <div style="text-align: center; padding-top: 80px;">
   <h1>👋 Hi, I'm <strong>QiYi Wang</strong></h1>
-  <p>Master’s student | Passionate about Full-Stack & Serverless</p>
+  <p>🎓 Bachelor of Science (Honours) in Software Systems Practice </p>
 </div>
-🎓 Bachelor of Science (Honours) in Software Systems Practice  
+
 
 ---
 
