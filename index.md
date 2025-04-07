@@ -3,70 +3,78 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tên Game Của Bạn</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <title>Tên Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: #111;
-      color: #fff;
-      text-align: center;
+      padding: 0;
+      box-sizing: border-box;
     }
-    header {
-      background: linear-gradient(to right, #222, #444);
-      padding: 60px 20px;
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom, #0f0f0f, #1f1f1f);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+    img.logo {
+      max-width: 200px;
+      margin-bottom: 30px;
     }
     h1 {
-      font-size: 48px;
+      font-size: 2.5rem;
       margin-bottom: 10px;
     }
-    p.subtitle {
-      font-size: 20px;
+    p.description {
+      font-size: 1.1rem;
       color: #ccc;
+      margin-bottom: 40px;
+      max-width: 600px;
     }
-    .buttons {
-      margin: 30px 0;
-    }
-    .store-button {
-      display: inline-block;
-      margin: 10px;
-      padding: 15px 25px;
-      font-size: 18px;
-      border-radius: 8px;
+    a.download-button {
+      background-color: #00c853;
       color: white;
-      background-color: #28a745;
       text-decoration: none;
+      padding: 15px 30px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s;
     }
-    .store-button:hover {
-      background-color: #218838;
-    }
-    .screenshot {
-      margin: 40px auto;
-      max-width: 90%;
+    a.download-button:hover {
+      background-color: #00b34f;
     }
     footer {
-      margin: 50px 0;
-      color: #888;
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      .description {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
 <body>
 
-<header>
+  <img src="https://via.placeholder.com/200x200.png?text=Logo" alt="Game Logo" class="logo" />
+
   <h1>Tên Game Của Bạn</h1>
-  <p class="subtitle">Một game idle RPG cực kỳ gây nghiện và vui nhộn!</p>
-  <div class="buttons">
-    <a href="https://play.google.com" class="store-button">Tải trên Google Play</a>
-    <a href="https://www.apple.com/app-store/" class="store-button" style="background-color:#007aff;">Tải trên App Store</a>
-  </div>
-</header>
+  <p class="description">Game chiến thuật phòng thủ kịch tính, đơn giản nhưng gây nghiện! Bắt đầu cuộc chiến sinh tồn ngay hôm nay!</p>
+  
+  <a href="https://play.google.com" class="download-button">Tải trên Google Play</a>
 
-<img src="https://via.placeholder.com/600x400?text=Ảnh+Game+Hoặc+Trailer" alt="Game Screenshot" class="screenshot" />
-
-<footer>
-  © 2025 Tên Studio của bạn | Liên hệ: email@example.com
-</footer>
+  <footer>© 2025 Tên Studio của bạn</footer>
 
 </body>
 </html>
