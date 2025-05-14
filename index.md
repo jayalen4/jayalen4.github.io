@@ -17,4 +17,4 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ## Donate
 
-<div class="gfm-embed" data-url="https://www.gofundme.com/f/a-bench-for-teddy-in-mvp/widget/large?sharesheet=fundraiser story&attribution_id=sl:89f83c96-d752-42d3-aa5b-29aab877aa60"></div><script defer src="https://www.gofundme.com/static/js/embed.js"></script>
+<div class="gfm-embed" data-url="https://www.gofundme.com/f/a-bench-for-teddy-in-mvp/widget/medium?sharesheet=fundraiser sidebar&attribution_id=sl:89f83c96-d752-42d3-aa5b-29aab877aa60"></div><script defer src="https://www.gofundme.com/static/js/embed.js"></script>
