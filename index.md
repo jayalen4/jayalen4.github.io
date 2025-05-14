@@ -11,7 +11,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 ## Video
 
 <!-- Center the video -->
-<div style="text-align: center;">
+<div class="container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dTVrdtDz9tU?si=4160hNGSnWnsF34r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
