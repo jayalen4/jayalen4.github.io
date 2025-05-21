@@ -10,6 +10,9 @@ Start by navigating to the code repository. If you're already here, you can clic
 
 ![Click code](./assets-readme/Screenshot%202025-05-21%20at%2007.22.38.png)
 
+Click the Codespaces tab
+![Click codespaces](./assets-readme/Screenshot%202025-05-21%20at%2007.55.26.png)
+
 Click "Create Codespace"
 
 ![Click create codespace](./assets-readme/Screenshot%202025-05-21%20at%2007.24.34.png)
