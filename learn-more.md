@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Dutch Elm Disease Information
-description: More info about Dutch Elm disease
+title: Dutch Elm Disease ravages Seattle elm trees
+description: But our neighborhood - with your financial help - fights back
 ---
 
-## More info
+## Erin O'Connor's legacy
 
-Back in 2002, Erin O'Connor recognized the threat that Dutch Elm Disease posed to our neighborhood. The mature trees that shade both sides of Edgar Street, as well as several of the largest trees in Roanoke Park, are all elms. Dutch Elm Disease (which, despite its name, kills all kinds of elms) decimated the elms on the East Coast and in the Midwest, but was largely unknown in Seattle - until the disease spread, perhaps from Boise, Idaho to Walla Walla along the Interstate 84 corridor by travelers carrying infected firewood. In 2001, three infected trees were identified in Seattle, five more in 2002, and many more since then. There is no cure for an infected tree.
+Back in 2002, our beloved neighbor Erin O'Connor recognized the threat that Dutch Elm Disease posed to our neighborhood. The mature trees that shade both sides of Edgar Street, as well as several of the largest trees in Roanoke Park, are all elms. Dutch Elm Disease (which, despite its name, kills many kinds of elms) decimated the elms on the East Coast and in the Midwest, but was largely unknown in Seattle - until the disease spread, perhaps from Boise, Idaho to Walla Walla along the Interstate 84 corridor by travelers carrying infected firewood. In 2001, three infected trees were identified in Seattle, five more in 2002, and dozens if not hundreds more since then. There is no cure once a tree has been infected.
 
 Our neighborhood would be unrecognizable if its elms died. Erin had the foresight to set up a system of regular inoculations with fungicide (the only known way to keep the disease away), and we have been following it every three years since then.
 
