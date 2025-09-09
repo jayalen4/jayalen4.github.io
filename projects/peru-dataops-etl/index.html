@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Peru DataOps ETL (sintético) – Marco Rios</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Chart para un gráfico simple -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-slate-950 text-slate-100">
+  <header class="sticky top-0 z-40 border-b border-white/10 bg-slate-950/80 backdrop-blur">
+    <nav class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="/" class="font-semibold">← Volver</a>
+      <span class="text-sm opacity-80">Proyecto</span>
+    </nav>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 space-y-8">
+    <section>
+      <h1 class="text-3xl font-semibold">Peru DataOps ETL (datos sintéticos)</h1>
+      <p class="mt-2 text-slate-300 max-w-3xl">
+        Mini-pipeline que ingesta archivos operativos/contables <code>CSV</code>, valida esquemas y
+        control de totales, concilia y genera un reporte. Todo con <strong>Python + SQL (demo sintética)</strong>,
+        trazabilidad y resultados visualizables aquí mismo.
+      </p>
+      <div class="mt-4 flex flex-wrap gap-2 text-xs">
+        <span class="rounded-full border px-3 py-1">Python</span>
+        <span class="rounded-full border px-3 py-1">Pandas</span>
+        <span class="rounded-full border px-3 py-1">Validaciones</span>
+        <span class="rounded-full border px-3 py-1">Reporting</span>
+      </div>
+      <div class="mt-4 flex gap-3">
+        <a class="rounded-lg bg-emerald-500 text-slate-900 px-4 py-2 font-medium hover:bg-emerald-400"
+           href="https://github.com/marcorios99/prj-peru-dataops-etl" target="_blank">Ver repo</a>
+        <a class="rounded-lg border border-white/15 px-4 py-2 hover:bg-white/10"
+           href="./sample.csv" download>Descargar sample.csv</a>
+      </div>
+    </section>
+
+    <!-- Vista rápida del dataset -->
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold">Vista del dataset</h2>
+      <p class="text-slate-300 text-sm">Cargamos <code>sample.csv</code> y lo mostramos como tabla (primeras 50 filas).</p>
+      <div class="overflow-x-auto border border-white/10 rounded-xl">
+        <table id="tbl" class="w-full text-sm"></table>
+      </div>
+    </section>
+
+    <!-- Un gráfico simple con los montos conciliados por día -->
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold">Montos por fecha (demo)</h2>
+      <canvas id="chart" height="120"></canvas>
+    </section>
+
+    <!-- Arquitectura (imagen) -->
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold">Arquitectura</h2>
+      <img src="/assets/img/etl-diagrama.png" alt="Diagrama ETL"
+           class="rounded-xl border border-white/10" />
+    </section>
+
+    <!-- (opcional) App embebida si la despliegas en Streamlit/HF Spaces -->
+    <!--
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold">Demo interactiva</h2>
+      <iframe src="https://tu-app.streamlit.app" width="100%" height="650"
+              class="rounded-xl border border-white/10"></iframe>
+    </section>
+    -->
+  </main>
+
+  <script>
+    // Carga CSV y arma tabla + serie simple para el gráfico
+    async function loadCSV(path) {
+      const txt = await fetch(path).then(r => r.text());
+      const rows = txt.trim().split(/\r?\n/).map(r => r.split(','));
+      return { header: rows[0], data: rows.slice(1) };
+    }
+    function renderTable(el, header, data) {
+      const thead = `<thead class="bg-white/5"><tr>${header.map(h=>`<th class="text-left px-3 py-2">${h}</th>`).join('')}</tr></thead>`;
+      const rows = data.slice(0,50).map(r=>`<tr class="odd:bg-white/0 even:bg-white/5">${r.map(c=>`<td class="px-3 py-2 whitespace-nowrap">${c}</td>`).join('')}</tr>`).join('');
+      el.innerHTML = thead + `<tbody>${rows}</tbody>`;
+    }
+    function renderChart(ctx, header, data) {
+      // Asumimos columnas: date, amount, ...  (ajústalo a tu CSV)
+      const idxDate = header.findIndex(h => /date|fecha/i.test(h));
+      const idxAmt  = header.findIndex(h => /amount|monto/i.test(h));
+      if (idxDate < 0 || idxAmt < 0) return;
+      const labels = data.map(r => r[idxDate]);
+      const values = data.map(r => Number(r[idxAmt]));
+      new Chart(ctx, {
+        type: 'line',
+        data: { labels, datasets: [{ label: 'Monto', data: values }] },
+        options: { responsive: true, scales: { y: { ticks: { beginAtZero: true } } } }
+      });
+    }
+    (async () => {
+      const csv = await loadCSV('./sample.csv');   // coloca un sample.csv junto a este HTML
+      renderTable(document.querySelector('#tbl'), csv.header, csv.data);
+      renderChart(document.querySelector('#chart'), csv.header, csv.data);
+    })();
+  </script>
+</body>
+</html>
