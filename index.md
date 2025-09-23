@@ -2,20 +2,18 @@
 layout: default
 ---
 
-
-## About Me
 IT Support Specialist with a strong academic foundation and hands-on experience supporting enterprise environments of 2,000+ employees. Proven ability to resolve technical issues quickly, streamline onboarding and offboarding, and improve system reliability through effective troubleshooting and documentation. Recognized for enhancing end-user satisfaction and contributing to efficient, secure IT operations. 
 Core Competencies:
 
-Ticketing: Jira Service Desk, Wolken, Spiceworks
+- Ticketing: Jira Service Desk, Wolken, Spiceworks
 
-Systems & Cloud: Active Directory, Azure AD, Office 365, Okta, Duo, Box, Teams, Slack, Zoom, DocuSign, Google Workspace
+- Systems & Cloud: Active Directory, Azure AD, Office 365, Okta, Duo, Box, Teams, Slack, Zoom, DocuSign, Google Workspace
 
-Networking: DHCP, DNS, VPN, TCP/IP, LAN/WAN, Firewalls
+- Networking: DHCP, DNS, VPN, TCP/IP, LAN/WAN, Firewalls
 
-Platforms: Windows 10 Enterprise, macOS, iOS, Dell, Mobile Devices
+- Platforms: Windows 10 Enterprise, macOS, iOS, Dell, Mobile Devices
 
-Hardware: Imaging, Deployment, Configuration, Maintenance, Troubleshooting
+- Hardware: Imaging, Deployment, Configuration, Maintenance, Troubleshooting
 
 # Projects
 ## Backup & Restore Automation
