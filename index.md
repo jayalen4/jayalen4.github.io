@@ -3,7 +3,18 @@ layout: default
 ---
 
 # About Me
-IT Support Specialist with proven experience providing first and second-level support in fast-paced enterprise environments of 2,000+ employees. Skilled in incident management, technical troubleshooting, and lifecycle management across Windows, macOS, iOS, and mobile devices. Expertise in onboarding/offboarding, imaging, and configuring Dell and Mac systems to company standards while ensuring software and antivirus updates are properly maintained. Experienced supporting enterprise cloud services including Office 365, Box, Okta, Webex, SharePoint, DocuSign, and Teams. Adept at resolving complex networking and infrastructure issues (DHCP, DNS, VPN, LAN/WAN, Firewalls, BSODs) and collaborating with cross-functional teams such as Security, Infrastructure, and Networking to support corporate networks, SaaS security, SAML/SSO/2FA, Azure AD, Google Workspace, and Exchange. Recognized for strong analytical skills, detailed documentation, and the ability to quickly identify root causes and deliver cost-effective resolutions.
+IT Support Specialist with a strong academic foundation and hands-on experience supporting enterprise environments of 2,000+ employees. Proven ability to resolve technical issues quickly, streamline onboarding and offboarding, and improve system reliability through effective troubleshooting and documentation. Recognized for enhancing end-user satisfaction and contributing to efficient, secure IT operations. 
+Core Competencies:
+
+Ticketing: Jira Service Desk, Wolken, Spiceworks
+
+Systems & Cloud: Active Directory, Azure AD, Office 365, Okta, Duo, Box, Teams, Slack, Zoom, DocuSign, Google Workspace
+
+Networking: DHCP, DNS, VPN, TCP/IP, LAN/WAN, Firewalls
+
+Platforms: Windows 10 Enterprise, macOS, iOS, Dell, Mobile Devices
+
+Hardware: Imaging, Deployment, Configuration, Maintenance, Troubleshooting
 
 # Projects
 ## Backup & Restore Automation
