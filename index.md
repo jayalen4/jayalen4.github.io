@@ -3,28 +3,26 @@ layout: default
 ---
 
 # About Me
-IT Graduate offering a strong academic background in IT combined with rigorous experience as a hands-on IT Support Specialist. Consistently recognized for technical troubleshooting skills used to resolve technical issues rapidly and cost-effectively. Technology competencies:
-
-- Ticketing: Jira Service Desk, Wolken, Spiceworks
-
-- Software: Active Directory, Office 365, Outlook, Okta, Duo, Slack, Zoom, Virtualbox, Remote Desktop
-
-- Networking: DHCP, VPN, DNS, TCP/IP
-
-- Platforms: Windows 10 Enterprise, macOS, iOS, Mobile
-
-- Hardware: Computer and Hardware Maintenance, Deploying and Configuring Hardware for End-Users
+IT Support Specialist with proven experience providing first and second-level support in fast-paced enterprise environments of 2,000+ employees. Skilled in incident management, technical troubleshooting, and lifecycle management across Windows, macOS, iOS, and mobile devices. Expertise in onboarding/offboarding, imaging, and configuring Dell and Mac systems to company standards while ensuring software and antivirus updates are properly maintained. Experienced supporting enterprise cloud services including Office 365, Box, Okta, Webex, SharePoint, DocuSign, and Teams. Adept at resolving complex networking and infrastructure issues (DHCP, DNS, VPN, LAN/WAN, Firewalls, BSODs) and collaborating with cross-functional teams such as Security, Infrastructure, and Networking to support corporate networks, SaaS security, SAML/SSO/2FA, Azure AD, Google Workspace, and Exchange. Recognized for strong analytical skills, detailed documentation, and the ability to quickly identify root causes and deliver cost-effective resolutions.
 
 # Projects
 ## Backup & Restore Automation
 
-- Description: Shell script using rsync for daily backups with logging and error handling.
+- Overview: Automated nightly backups of my ProjectFiles directory, with error logging and log rotation.
 
-- Tech: Bash, cron.
+- Tools: Bash, rsync, cron.
 
-- Outcome: Reliable backups; log trimming prevents uncontrolled growth.
+## What I Did:
 
-- Link to GitHub repo.
+- Wrote a script to automate backups.
+
+- Added detailed logging for errors and successes.
+
+- Implemented log rotation to keep files manageable.
+
+- Outcome: Reliable automated backups; learned cron scheduling and shell scripting best practices.
+
+- GitHub Repo: View Project
 
 # Testimonials / Feedback
 
