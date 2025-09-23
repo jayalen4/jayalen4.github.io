@@ -2,6 +2,30 @@
 layout: default
 ---
 
+## About Me
+IT Graduate offering a strong academic background in IT combined with rigorous experience as a hands-on IT Support Specialist. Consistently recognized for technical troubleshooting skills used to resolve technical issues rapidly and cost-effectively. Technology competencies:
+
+Ticketing: Jira Service Desk, Wolken, Spiceworks
+
+Software: Active Directory, Office 365, Outlook, Okta, Duo, Slack, Zoom, Virtualbox, Remote Desktop
+
+Networking: DHCP, VPN, DNS, TCP/IP
+
+Platforms: Windows 10 Enterprise, macOS, iOS, Mobile
+
+Hardware: Computer and Hardware Maintenance, Deploying and Configuring Hardware for End-Users
+
+## Projects
+Backup & Restore Automation (macOS)
+
+Description: Shell script using rsync for daily backups with logging and error handling.
+
+Tech: Bash, cron.
+
+Outcome: Reliable backups; log trimming prevents uncontrolled growth.
+
+Link to GitHub repo.
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
