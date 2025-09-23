@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# About Me
+About Me
 IT Support Specialist with a strong academic foundation and hands-on experience supporting enterprise environments of 2,000+ employees. Proven ability to resolve technical issues quickly, streamline onboarding and offboarding, and improve system reliability through effective troubleshooting and documentation. Recognized for enhancing end-user satisfaction and contributing to efficient, secure IT operations. 
 Core Competencies:
 
