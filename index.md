@@ -34,7 +34,7 @@ Core Competencies:
 
 - Outcome: Reliable automated backups; learned cron scheduling and shell scripting best practices.
 
-- GitHub Repo: View Project
+- GitHub Repo: [View Project](https://github.com/jayalen4/backup-restore-automation)
 
 ## Windows Server 2019 | Hands-On Virtual Labs
 - Installed and set up VirtualBox, Windows Server 2019, linked clones, and RDP.
