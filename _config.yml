@@ -1,5 +1,5 @@
 title: Jeremys Portfolio
-description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: true
+description: This site was built using [GitHub Pages](https://pages.github.com/).
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
