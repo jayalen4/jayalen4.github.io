@@ -16,8 +16,6 @@ Core Competencies:
 
 - Hardware: Imaging, Deployment, Configuration, Maintenance, Troubleshooting
 
-Here is my [LinkedIn](https://www.linkedin.com/in/jeremyreyes4/).
-
 # Projects
 ## Backup & Restore Automation
 
