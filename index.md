@@ -24,7 +24,7 @@ Core Competencies:
 
 - Tools: Bash, rsync, cron.
 
-## What I Did:
+### What I Did:
 
 - Wrote a script to automate backups.
 
@@ -35,6 +35,19 @@ Core Competencies:
 - Outcome: Reliable automated backups; learned cron scheduling and shell scripting best practices.
 
 - GitHub Repo: View Project
+
+## Windows Server 2019 | Hands-On Virtual Labs
+- Installed and set up VirtualBox, Windows Server 2019, linked clones, and RDP.
+  
+- Added Windows 10 client machines to Windows Server 2019 domain.
+  
+- Created and modified Active Directory template user accounts to hold various properties.
+  
+- Configured Windows Server 2019 domain settings, server name, TCP/IP settings, and remote desktop.
+  
+- Created and linked Group Policy Objects (GPO) in Active Directory.
+  
+- Utilized shared groups and drives to manage access and permissions in the virtual lab environment.
 
 # Testimonials / Feedback
 
